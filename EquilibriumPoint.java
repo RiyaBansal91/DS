@@ -35,9 +35,7 @@ Expected Auxiliary Space: O(1)
 import java.io.*;
 import java.util.*;
 
-class Solution {
-    // a: input array
-    // n: size of array
+class EquilibriumPoint {
     public static int equilibriumPoint(long arr[], int n) {
         if (n == 1) {
             return 1;
@@ -65,6 +63,6 @@ class Solution {
                 return i + 1;
         }
         return -1;
-
     }
+  // add main method
 }
